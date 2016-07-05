@@ -1,4 +1,7 @@
 <?php
+include("inc/functions.php");
+$calendar = full_calendar();
+
 $pageTitle = "Coxhall Guild";
 
 include("inc/header.php"); ?>

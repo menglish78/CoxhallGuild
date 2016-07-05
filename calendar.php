@@ -1,4 +1,7 @@
 <?php
+include("inc/functions.php");
+$calendar = full_calendar();
+
 $pageTitle = "Event Calendar";
 
 include("inc/header.php"); ?>
