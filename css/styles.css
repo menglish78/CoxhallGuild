@@ -7,8 +7,8 @@
 /* Header ------------------------------*/
 
 .header {
-	background: #71ba2c url('../img/TowerHigh.jpg') no-repeat center;
-
+	background: #006400 url('../img/TowerHigh.jpg') no-repeat center;
+	margin: auto;
 }
 
 .header a, a:visited {
@@ -34,6 +34,10 @@
 	text-align: left;
 }
 /* Body --------------------------------*/
+.next-event {
+	text-align: left;
+	margin: auto;
+}
 
 .page-content {
 	color: #373737;
@@ -41,12 +45,11 @@
 	padding-bottom: 20px;
 }
 
-/*.page-content li {
-	list-style: none;
-}*/
-
 table {
     border-collapse: collapse;
+		width: 70%;
+		height: 80%;
+		margin: auto;
 }
 
 table, td {
@@ -55,17 +58,17 @@ table, td {
 
 td {
     padding: 5px;
-    text-align: left;
+    text-align: center;
 }
 
 tr:nth-child(even){
-	background-color: #d8f1c1;
+	background-color: #8bff8b;
 }
 
 /* Footer ------------------------------*/
 
 .footer {
-  background-color: #71ba2c;
+  background-color: #006400;
 	text-align: center;
 }
 

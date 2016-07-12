@@ -12,20 +12,15 @@ include("inc/header.php"); ?>
       <table>
       <?php
       foreach($calendar as $events){
+        $time = strtotime($events[0]);
+        $date = date('M j, Y', $time);
         echo "<tr><td>" .
-        $events[0] .
+        $date .
         "</td><td>" .
         $events[1] .
         "</td><td>" .
         $events[2] .
         "</td></tr>";
-
-        // echo $events[0];
-        // echo "<br>";
-        // echo $events[1];
-        // echo "<br>";
-        // echo $events[2];
-        // echo "<br>";
       }
       ?>
     </table>
