@@ -7,22 +7,21 @@
 /* Header ------------------------------*/
 
 .header {
-  background-color: #71ba2c;
-  font-family: "Helvetica",sans-serif;
-	text-shadow: 2px 2px rgba(0,0,0, .8);
-	padding-bottom: 20px;
+	background: #71ba2c url('../img/TowerHigh.jpg') no-repeat center;
+
 }
 
 .header a, a:visited {
+	font-family: 'Libre Baskerville', serif;
   color: white;
+	text-shadow: 3px 3px rgba(0,0,0, .7);
   text-decoration: none;
 }
 
 .navigation li {
 	list-style: none;
 	text-shadow: 1px 1px rgba(0,0,0, .8);
-	display: inline-flex;
-	float: right;
+	display: inline-block;
 }
 
 .navigation a {
@@ -30,35 +29,44 @@
 	padding-right: 10px;
 }
 
-.page-header img {
-	height: 230.25px;
-	width: 200px;
-	padding: 20px;
+.page-header {
+	font-size: 5em;
+	text-align: left;
 }
 /* Body --------------------------------*/
 
 .page-content {
-  background: url('../img/TowerHigh.jpg') no-repeat center;
-  background-size: cover;
-  width: 100%;
-	height: 70%;
-	color: white;
-	text-shadow: 1px 1px rgba(0,0,0, .8);
-	font-family: "Helvetica", sans-serif;
+	color: #373737;
+	font-family: 'Libre Baskerville', sans-serif;
+	padding-bottom: 20px;
 }
 
-.calendar table {
-	color: white;
-}
-
-.page-content li {
+/*.page-content li {
 	list-style: none;
+}*/
+
+table {
+    border-collapse: collapse;
+}
+
+table, td {
+    border: 1px solid black;
+}
+
+td {
+    padding: 5px;
+    text-align: left;
+}
+
+tr:nth-child(even){
+	background-color: #d8f1c1;
 }
 
 /* Footer ------------------------------*/
 
 .footer {
   background-color: #71ba2c;
+	text-align: center;
 }
 
 .footer img {
