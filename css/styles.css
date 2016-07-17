@@ -14,13 +14,15 @@
 .header a, a:visited {
 	font-family: 'Libre Baskerville', serif;
   color: white;
-	text-shadow: 3px 3px rgba(0,0,0, .7);
+	text-shadow: 3px 3px 3px rgba(0,0,0, .7);
   text-decoration: none;
 }
 
 .navigation li {
+	font-size: 1.5em;
+	font-weight: bolder;
 	list-style: none;
-	text-shadow: 1px 1px rgba(0,0,0, .8);
+	text-shadow: 1px 1px 1px rgba(0,0,0, .7);
 	display: inline-block;
 }
 
@@ -37,12 +39,22 @@
 .next-event {
 	text-align: left;
 	margin: auto;
+	width: 70%;
 }
 
-.page-content {
+
+.page-content,
+.calendar-content {
 	color: #373737;
 	font-family: 'Libre Baskerville', sans-serif;
 	padding-bottom: 20px;
+
+}
+
+.page-content {
+	height: 70%;
+	width: 70%;
+	margin: auto;
 }
 
 table {

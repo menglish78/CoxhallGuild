@@ -13,11 +13,11 @@ include("inc/header.php"); ?>
       foreach($upcoming as $our_next){
         $time = strtotime($our_next[0]);
         $date = date('M j, Y', $time);
-        echo $date;
+        echo  "<h3>" . $date . "</h3>";
+        // echo "<br>";
+        echo "<h3>" . $our_next[1] . "</h3>";
         echo "<br>";
-        echo $our_next[1];
-        echo "<br>";
-        echo $our_next[2];
+        echo "<p>" . $our_next[2] . "</p>";
       }
       ?>
     </div>

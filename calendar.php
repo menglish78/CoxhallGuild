@@ -6,7 +6,7 @@ $pageTitle = "Event Calendar";
 
 include("inc/header.php"); ?>
 
-<div class="page-content">
+<div class="calendar-content">
   <h2>Event Calendar</h2>
     <div class="calendar">
       <table>
