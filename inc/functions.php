@@ -6,6 +6,7 @@ function full_calendar() {
     $results = $db->query(
       "SELECT date_time, event, description
        FROM events
+       WHERE date_time >= CURDATE()
        ORDER BY date_time ASC"
      );
   } catch (Exception $e) {
