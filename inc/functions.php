@@ -17,6 +17,7 @@ function full_calendar() {
   return $calendar;
 }
 
+//get only one upcoming date for main page
 function next_event() {
   include("connection.php");
   try {

@@ -12,6 +12,7 @@ include("inc/header.php"); ?>
       <table>
       <?php
       foreach($calendar as $events){
+        // change sql date_time to Mon 01, Year format
         $time = strtotime($events[0]);
         $date = date('M j, Y', $time);
         echo "<tr><td>" .

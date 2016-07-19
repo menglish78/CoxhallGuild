@@ -42,13 +42,17 @@
 	width: 70%;
 }
 
+.calendar-content h2 {
+	margin: auto;
+	width: 70%;
+	padding-bottom: 20px;
+}
 
 .page-content,
 .calendar-content {
 	color: #373737;
 	font-family: 'Libre Baskerville', sans-serif;
 	padding-bottom: 20px;
-
 }
 
 .page-content {

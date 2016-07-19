@@ -14,7 +14,6 @@ include("inc/header.php"); ?>
         $time = strtotime($our_next[0]);
         $date = date('M j, Y', $time);
         echo  "<h3>" . $date . "</h3>";
-        // echo "<br>";
         echo "<h3>" . $our_next[1] . "</h3>";
         echo "<br>";
         echo "<p>" . $our_next[2] . "</p>";
